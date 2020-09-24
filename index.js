@@ -105,10 +105,10 @@ function add_input() {
 		$div.appendChild($input)
 
 		onButtom = () => {
-			// $div.removeChild($input)
-			// $div.classList.remove("nice_div")
-			// $div.removeEventListener("mouseenter", onButtom)
-			// add_input()
+			$div.removeChild($input)
+			$div.classList.remove("nice_div")
+			$div.removeEventListener("mouseenter", onButtom)
+			add_input()
 
 		}
 
